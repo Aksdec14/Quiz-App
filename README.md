@@ -29,3 +29,35 @@ Clone the repository:
 ```bash
 git clone https://github.com/Aksdec14/Quiz-App.git
 cd Quiz-App
+npm install
+npm run dev
+```
+🔗 API Reference
+https://opentdb.com/api.php?amount=10&difficulty=easy&type=multiple
+
+📂 Project Structure
+
+Quiz-App/
+├── public/            # Static assets
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── hooks/         # Custom hooks (localStorage etc.)
+│   ├── lib/           # Utility functions (API fetch)
+│   ├── pages/         # App pages (Home, Quiz, Results)
+│   ├── App.jsx        # Main App entry
+│   └── main.jsx       # React DOM rendering
+├── package.json
+├── vite.config.js
+└── README.md
+
+🎨 Tech Stack
+
+React 18
+
+Vite (bundler)
+
+Tailwind CSS (styling)
+
+React Router (navigation)
+
+Live : https://quiz-app-five-zeta-49.vercel.app/
